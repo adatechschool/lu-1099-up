@@ -1,6 +1,6 @@
 # Comprendre
 
-* Function
+* Function et Bibliothèque
 * 
 * Quel est son rôle ?
 * 
@@ -8,9 +8,12 @@
 * Les fonctions aident à diviser notre programme en morceaux plus petits et modulaires. Au fur et à mesure que notre programme s'agrandit, les fonctions le rendent plus organisé et plus gérable.
 * De plus, cela évite les répétitions et rend le code réutilisable.
 * 
+* Le rôle de la bibliothèque : un fichier ou plusieurs, déjà codé qui met à disposition des méthodes et des propriétés afin d'ajoutzer des fonctionnalités dynamiques à une page. 
+* 
 * Quel est son intérêt ?
 * //////
 * A-t-elle des désavantages ?
+* Les bibliothèques dépendent toujours du logiciel auxquel elles sont assignés et ne peuvent pas être utilisées indépendamment du logiciel. ``
 * 
 * Y a-t-il plusieurs façons de s'en servir ?
 * 
@@ -25,7 +28,9 @@
 *   Le nom de la fonction.
 *   Une liste d'arguments à passer à la fonction,
 *   Les instructions définissant la fonction
-*   Appel de la function 
+*   Appel de la fonction 
+
+* Pour la plupart des bibliothèques, il est possible de le faire via une balise script à insérer dans la page HTML ou en local avec le gestionnaire de packages "NPM". 
 
 * Quelles sont les nuances d'un langage à l'autre ?
 * 
