@@ -57,3 +57,19 @@ function FindIntersection(strArr) {
 }
 
 console.log(FindIntersection(readline()));
+
+//Popup en js
+
+//HTML
+<body>
+    <h1 id="h1">Clique Moi</h1>
+    <script src="html.js"></script>
+</body>
+
+//JavaScript
+document.getElementById("h1").addEventListener("click", bonjour);
+
+function bonjour() {
+let nom = prompt("Bonjour, comment t'appelle tu ?");
+alert("bonjour" +" "+ nom);
+}
