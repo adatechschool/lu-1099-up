@@ -14,6 +14,7 @@ function getVillainName(birthday){
     indexnumber1 = day % 10;
     console.log("The " +  m[indexnumber] +" "+ d[indexnumber1]);
   } else {
+    const indexnumber = monthArray.indexOf(month);
     indexnumber1 = day
     console.log("The " +  m[indexnumber] +" "+ d[indexnumber1]);
   }
