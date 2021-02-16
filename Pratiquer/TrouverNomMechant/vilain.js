@@ -30,3 +30,30 @@ function odds(values){
 }
 
 odds([1, 2, 3, 4, 5, 6, 7]);
+
+// Implémenter une fonction qui convertit une expression booléenne en chaîne de caractère
+function booleanToString(b){
+  //your code here
+  if (b === true){
+    return "true"
+  } else {
+    return "false"
+  }
+}
+
+// Trouver les nombres communs dans deux tableaux et retourner "false" s'il n'y en a pas.
+function FindIntersection(strArr) { 
+  let premierArray = strArr[0].split(",");
+  let secondArray = strArr[1].split(",");
+  let elementCommun = premierArray.filter(e => secondArray.includes(e));
+  if (elementCommun.length < 1) {
+    console.log("false")
+  } else {
+    console.log(elementCommun);
+  }
+   
+  return strArr; 
+
+}
+
+console.log(FindIntersection(readline()));
